@@ -1,0 +1,22 @@
+.Message{
+  background: #202020;
+  border: #7a7a7a 0.1em solid;
+  border-radius: 1em;
+  color: white; 
+  padding: 1em;
+  height: 4.5em;
+  margin-bottom: -1em;
+  
+}
+.user{
+  display: flex;
+}
+.user p{
+  margin-left: 1em;
+  font-size: .9em;
+}
+.Message img {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}

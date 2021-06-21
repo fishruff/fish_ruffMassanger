@@ -1,0 +1,21 @@
+.nav {
+  grid-area: n;
+  background: #ccc5b9;
+  border-radius: 1em;
+  justify-content: center;
+  padding: 1em;
+  height: 50em;
+
+}
+.nav a {
+  padding: 0.2em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 50%;
+}
+.nav a:hover {
+  border: black 0.01em solid;
+  border-radius: 0.25em;
+}

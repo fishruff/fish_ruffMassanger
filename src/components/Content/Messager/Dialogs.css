@@ -1,0 +1,41 @@
+.Dialog{
+  background: #202020;
+  /*position: fixed;*/
+  border-radius: 1em;
+  padding: 1em;
+}
+p{
+  border:none;
+}
+.dialogUser{
+  border-radius: 1em;
+  background-color: #020202;
+  width: 100% - 1em;
+  padding: 1em;
+  height: 2em;
+  display: flex;
+}
+.dialogUser img {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}
+.inputMess{
+  width: 100%;
+  display: flex;
+}
+.inputMess button{
+  width: 5em;
+  height: 2em;
+  color: #020202;
+  background: #eb5e28;
+  outline: none;
+  border: #7a7a7a 0.1em solid;
+  border-radius: .5em;
+  margin-left: 0.5em;
+}
+input{
+outline: none;  
+width: 100%;
+border-radius: .5em;
+}

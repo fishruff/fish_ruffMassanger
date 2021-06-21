@@ -1,0 +1,13 @@
+.Messages{
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+
+
+}
+.users{
+  height: 100%;
+  height: 15em;
+}
+
+
+
