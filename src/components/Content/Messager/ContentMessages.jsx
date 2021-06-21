@@ -1,11 +1,11 @@
 import React from "react";
-import state from "../../../state";
+//import state from "../../../state";
 import "./ContentMessages.css";
 import Dialogs from "./Dialogs";
 import MessageUser from "./MessageUser";
 
 const ContentMessages = (props) => {
-  let UsersInfoElement = state.MassagePage.UsersInfo.map((u) => (
+  let UsersInfoElement = props.state.MassagePage.UsersInfo.map((u) => (
     <MessageUser UserName={u.UserName} id={u.id} LMessage={u.LMessage} />
   ));
 

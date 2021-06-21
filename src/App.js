@@ -13,7 +13,10 @@ const App = (props) => {
         <Header />
         <Navbar />
         <ContentMessages />
-        <Route path="/messages" render={() => <ContentMessages />} />
+        <Route
+          path="/messages"
+          render={() => <ContentMessages state={props.state} />}
+        />
         <Route path="/profile" render={() => <ContentProfile />} />
       </div>
     </BrowserRouter>
