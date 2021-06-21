@@ -17,7 +17,7 @@ const App = (props) => {
         <Header />
         <Navbar />
         <ContentMessages/>
-        <Route path='/messages' render={ () => <ContentMessages {...props}  />}/> 
+        <Route path='/messages' render={ () => <ContentMessages />}/> 
         
         <Route path='/profile' render={()=><ContentProfile/>}/>
     </div>
