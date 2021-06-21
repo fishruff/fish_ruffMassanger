@@ -1,13 +1,13 @@
 import React from "react";
 import "./ContentProfile.css";
-import ProfileInfo from './ProfileInfo'
-import MyPost from './MyPost'
+import ProfileInfo from "./ProfileInfo";
+import MyPost from "./MyPost";
 
-const ContentProfile = () => {
+const ContentProfile = (props) => {
   return (
     <div className="content">
-      <ProfileInfo/>
-      <MyPost/>
+      <ProfileInfo />
+      <MyPost state={props.state} />
     </div>
   );
 };
